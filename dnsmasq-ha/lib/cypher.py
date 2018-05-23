@@ -1,4 +1,7 @@
-# Inspired from https://gist.github.com/syedrakib/d71c463fc61852b8d366
+'''
+Inspired from https://gist.github.com/syedrakib/d71c463fc61852b8d366
+Library to simply encrypt exchanged thank to shared secret
+'''
 
 from Crypto.Cipher import AES
 from hashlib import sha256
